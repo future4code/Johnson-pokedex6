@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Ivanilo Alves da Silva Junior
+- Lucas Veras Ferreira
+- Rodrigo Inawashiro
 
 Link do Surge: www.link.com.br
 

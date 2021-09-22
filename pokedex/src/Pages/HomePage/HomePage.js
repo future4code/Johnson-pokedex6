@@ -1,7 +1,8 @@
 import React from "react";
 import styled from 'styled-components'
-import { Header } from "./Header";
-import { PokemonCard } from "./PokemonCard";
+import { Header } from '../../components/Header'
+import { PokemonCard} from '../../components/PokemonCard'
+
 
 const DivHome = styled.div`
 width: 100vw;
@@ -12,6 +13,7 @@ grid-template-rows:  1fr 1fr 1fr 1fr;
 `
 
 export const HomePage = () =>{
+   
     
     return(
         <DivHome>

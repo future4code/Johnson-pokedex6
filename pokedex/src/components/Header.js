@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
+import { useHistory } from "react-router-dom";
 
  const HeaderDiv = styled.div`
 display: flex;
@@ -16,9 +17,16 @@ position: absolute;
 left: 10px;
 `
 export const Header= (props) =>{
+
+    const history = useHistory()
+
+    const goToPokedexPage = () => {
+        history.push('/pokedex')
+    }
+
 return (
         <HeaderDiv>
-            <Botao>pokedex</Botao>
+            <Botao onClick={goToPokedexPage}>pokedex</Botao>
             <h1>pokedex</h1>
         </HeaderDiv>
     )

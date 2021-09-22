@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
+import { useHistory } from "react-router-dom";
 
 const CardPokemon = styled.div`
 border: solid 1px;
@@ -14,12 +15,18 @@ display: flex;
 justify-content: space-evenly;
 `
 export const PokemonCard = () =>{
+    const history = useHistory()
+
+    const goToDetailsPage = () => {
+        history.push('/details/:id')
+    }
+    
     return(
         <CardPokemon>
             <p>oi</p>
             <ButtonDiv>
-            <button>Adcionar</button>
-            <button>Ver Detalhes</button>
+            <button>Adicionar</button>
+            <button onClick={goToDetailsPage}>Ver Detalhes</button>
             </ButtonDiv>
         </CardPokemon>
     )

@@ -19,7 +19,7 @@ export const HomePage = () =>{
         <DivHome>
             <Header>
             </Header>
-            <PokemonCard></PokemonCard>
+            <PokemonCard>bla</PokemonCard>
         </DivHome>
     )
 }

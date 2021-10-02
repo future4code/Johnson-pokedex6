@@ -8,7 +8,6 @@ function Router () {
     return (
         <BrowserRouter>
          <Switch>
-
              <Route exact path={'/'}>
                 <HomePage/>
              </Route>

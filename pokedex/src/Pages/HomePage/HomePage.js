@@ -18,9 +18,7 @@ export const HomePage = () =>{
     
     const history = useHistory()
 
-    
-
-  
+   
     return(
         <DivHome>
             <Header 
